@@ -1,0 +1,246 @@
+{
+    "description": "Site-specific fixes for Dynamic theme mode",
+    "version": "1.0.0",
+    "fixes": {
+        "google.com": {
+            "invert": [],
+            "css": ".gb_Td { background-color: var(--darkreader-neutral-background) !important; }\n.RNNXgb { background-color: #303134 !important; }\n.aajZCb { background-color: #303134 !important; }\n.sfbg { background-color: #202124 !important; }\n.minidiv .sfbg { background-color: #303134 !important; }",
+            "ignoreInlineStyle": [".ytp-gradient-bottom"],
+            "ignoreImageAnalysis": []
+        },
+        "youtube.com": {
+            "invert": [],
+            "css": "html[dark] { --yt-spec-base-background: #0f0f0f !important; }\nytd-masthead { background-color: #0f0f0f !important; }",
+            "ignoreInlineStyle": [".ytp-gradient-bottom", ".ytp-gradient-top"],
+            "ignoreImageAnalysis": []
+        },
+        "twitter.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": []
+        },
+        "x.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": []
+        },
+        "facebook.com": {
+            "invert": [],
+            "css": ".__fb-light-mode { --primary-background: #18191a !important; --secondary-background: #242526 !important; }",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": []
+        },
+        "instagram.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": ["._ab1y"],
+            "ignoreImageAnalysis": []
+        },
+        "reddit.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": []
+        },
+        "amazon.com": {
+            "invert": [".a-button-text img", ".nav-logo-link img", ".s-image", "#landingImage"],
+            "css": "#nav-belt { background-color: #131921 !important; }\n#nav-main { background-color: #232f3e !important; }\n.nav-sprite { filter: none !important; }",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": [".s-image", "#landingImage"]
+        },
+        "ebay.com": {
+            "invert": [".s-item__image img"],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": [".s-item__image img"]
+        },
+        "wikipedia.org": {
+            "invert": [],
+            "css": ".mw-body { background-color: var(--darkreader-neutral-background) !important; }\n.vector-menu-portal .vector-menu-content { background-color: var(--darkreader-neutral-background) !important; }",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": [".mw-file-element", ".thumbimage"]
+        },
+        "stackoverflow.com": {
+            "invert": [],
+            "css": ".s-prose code { background-color: #2d2d2d !important; border-color: #3e4446 !important; }\n.s-prose pre { background-color: #1e1e1e !important; }",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": []
+        },
+        "github.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": [".avatar", ".octicon"]
+        },
+        "linkedin.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": [".presence-entity__image", ".feed-shared-actor__avatar-image"]
+        },
+        "microsoft.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": []
+        },
+        "docs.microsoft.com": {
+            "invert": [],
+            "css": ".theme-light { --theme-body-background: #1e1e1e !important; }",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": []
+        },
+        "learn.microsoft.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": []
+        },
+        "apple.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": [".as-imagegrid-item img", ".rf-ccard-image"]
+        },
+        "nytimes.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": [".css-rq4mmj", "figure img"]
+        },
+        "cnn.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": [".image__dam-img"]
+        },
+        "bbc.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": []
+        },
+        "medium.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": ["figure img", ".progressiveMedia-image"]
+        },
+        "dev.to": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": []
+        },
+        "notion.so": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [".notion-page-content"],
+            "ignoreImageAnalysis": []
+        },
+        "trello.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [".board-canvas"],
+            "ignoreImageAnalysis": []
+        },
+        "asana.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": []
+        },
+        "jira.atlassian.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": []
+        },
+        "dropbox.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": [".file-thumbnail"]
+        },
+        "drive.google.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": [".a-c-zd-S-pf"]
+        },
+        "mail.google.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": [".ajU"]
+        },
+        "docs.google.com": {
+            "invert": [],
+            "css": ".docs-sheet-container { background-color: var(--darkreader-neutral-background) !important; }",
+            "ignoreInlineStyle": [".kix-page", ".grid-container"],
+            "ignoreImageAnalysis": []
+        },
+        "calendar.google.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": ["[data-eventid]"],
+            "ignoreImageAnalysis": []
+        },
+        "maps.google.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": ["#scene"],
+            "ignoreImageAnalysis": []
+        },
+        "translate.google.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": []
+        },
+        "paypal.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": []
+        },
+        "stripe.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": []
+        },
+        "twitch.tv": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [".tw-root--theme-dark"],
+            "ignoreImageAnalysis": []
+        },
+        "discord.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": []
+        },
+        "slack.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": []
+        },
+        "zoom.us": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": []
+        },
+        "teams.microsoft.com": {
+            "invert": [],
+            "css": "",
+            "ignoreInlineStyle": [],
+            "ignoreImageAnalysis": []
+        }
+    }
+}
