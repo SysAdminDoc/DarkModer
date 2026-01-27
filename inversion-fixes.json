@@ -1,0 +1,244 @@
+{
+    "description": "Site-specific fixes for Filter and Filter+ modes",
+    "version": "1.0.0",
+    "fixes": {
+        "default": {
+            "invert": [
+                "img",
+                "video",
+                "picture",
+                "canvas",
+                "iframe",
+                "embed",
+                "object",
+                "svg image",
+                "[style*=\"background-image\"]:not([style*=\"gradient\"])",
+                ".emoji",
+                "[class*=\"emoji\"]",
+                "[role=\"img\"]"
+            ],
+            "noinvert": [
+                "img img",
+                "picture img",
+                "video video"
+            ],
+            "removebg": [],
+            "css": ""
+        },
+        "google.com": {
+            "invert": [
+                "img:not(.gb_Pc)",
+                ".lnXdpd"
+            ],
+            "noinvert": [
+                ".gb_Pc"
+            ],
+            "removebg": [],
+            "css": ""
+        },
+        "youtube.com": {
+            "invert": [
+                "img",
+                ".ytp-gradient-bottom",
+                ".ytp-gradient-top"
+            ],
+            "noinvert": [
+                "#player-theater-container",
+                ".html5-video-container",
+                ".ytp-cued-thumbnail-overlay-image"
+            ],
+            "removebg": [],
+            "css": ""
+        },
+        "amazon.com": {
+            "invert": [
+                ".s-image",
+                "#landingImage",
+                ".a-declarative img"
+            ],
+            "noinvert": [
+                "#nav-logo-sprites"
+            ],
+            "removebg": [],
+            "css": ".nav-sprite { filter: none !important; }"
+        },
+        "facebook.com": {
+            "invert": [
+                "img"
+            ],
+            "noinvert": [],
+            "removebg": [],
+            "css": ""
+        },
+        "twitter.com": {
+            "invert": [
+                "img",
+                "video"
+            ],
+            "noinvert": [],
+            "removebg": [],
+            "css": ""
+        },
+        "x.com": {
+            "invert": [
+                "img",
+                "video"
+            ],
+            "noinvert": [],
+            "removebg": [],
+            "css": ""
+        },
+        "instagram.com": {
+            "invert": [
+                "img",
+                "video"
+            ],
+            "noinvert": [],
+            "removebg": [],
+            "css": ""
+        },
+        "reddit.com": {
+            "invert": [
+                "img",
+                "video"
+            ],
+            "noinvert": [],
+            "removebg": [],
+            "css": ""
+        },
+        "wikipedia.org": {
+            "invert": [
+                ".mw-file-element",
+                ".thumbimage"
+            ],
+            "noinvert": [],
+            "removebg": [],
+            "css": ""
+        },
+        "stackoverflow.com": {
+            "invert": [
+                ".user-gravatar32 img",
+                ".s-avatar img"
+            ],
+            "noinvert": [],
+            "removebg": [],
+            "css": ""
+        },
+        "github.com": {
+            "invert": [
+                ".avatar",
+                ".avatar-user"
+            ],
+            "noinvert": [
+                ".octicon"
+            ],
+            "removebg": [],
+            "css": ""
+        },
+        "linkedin.com": {
+            "invert": [
+                ".presence-entity__image",
+                ".feed-shared-actor__avatar-image",
+                ".EntityPhoto-circle-4"
+            ],
+            "noinvert": [],
+            "removebg": [],
+            "css": ""
+        },
+        "medium.com": {
+            "invert": [
+                "figure img",
+                ".progressiveMedia-image"
+            ],
+            "noinvert": [],
+            "removebg": [],
+            "css": ""
+        },
+        "nytimes.com": {
+            "invert": [
+                "figure img",
+                ".css-rq4mmj"
+            ],
+            "noinvert": [],
+            "removebg": [],
+            "css": ""
+        },
+        "cnn.com": {
+            "invert": [
+                ".image__dam-img",
+                "figure img"
+            ],
+            "noinvert": [],
+            "removebg": [],
+            "css": ""
+        },
+        "bbc.com": {
+            "invert": [
+                "img",
+                "video"
+            ],
+            "noinvert": [],
+            "removebg": [],
+            "css": ""
+        },
+        "ebay.com": {
+            "invert": [
+                ".s-item__image img",
+                ".vi-image-gallery__image"
+            ],
+            "noinvert": [],
+            "removebg": [],
+            "css": ""
+        },
+        "walmart.com": {
+            "invert": [
+                "img"
+            ],
+            "noinvert": [],
+            "removebg": [],
+            "css": ""
+        },
+        "target.com": {
+            "invert": [
+                "img"
+            ],
+            "noinvert": [],
+            "removebg": [],
+            "css": ""
+        },
+        "etsy.com": {
+            "invert": [
+                ".listing-card-image img"
+            ],
+            "noinvert": [],
+            "removebg": [],
+            "css": ""
+        },
+        "maps.google.com": {
+            "invert": [],
+            "noinvert": [
+                "#scene",
+                ".widget-scene"
+            ],
+            "removebg": [],
+            "css": ""
+        },
+        "docs.google.com": {
+            "invert": [],
+            "noinvert": [
+                ".kix-page",
+                ".docs-texteventtarget-iframe"
+            ],
+            "removebg": [],
+            "css": ""
+        },
+        "mail.google.com": {
+            "invert": [
+                ".ajU img"
+            ],
+            "noinvert": [],
+            "removebg": [],
+            "css": ""
+        }
+    }
+}

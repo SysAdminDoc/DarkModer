@@ -1,0 +1,24 @@
+{
+    "description": "Pre-made static CSS themes for specific sites",
+    "version": "1.0.0",
+    "themes": {
+        "wikipedia.org": {
+            "css": "body { background-color: #1e1e1e !important; color: #e8e6e3 !important; }\n.mw-body { background-color: #1e1e1e !important; }\n#mw-head { background-color: #2a2a2a !important; }\n.vector-menu-tabs li { background-color: #333 !important; }\n.vector-menu-tabs li.selected { background-color: #1e1e1e !important; }\na { color: #6eb4ff !important; }\na:visited { color: #b994ff !important; }\n.infobox { background-color: #2a2a2a !important; border-color: #3e4446 !important; }\ntable.wikitable { background-color: #2a2a2a !important; border-color: #3e4446 !important; }\ntable.wikitable th { background-color: #333 !important; }\ncode { background-color: #2a2a2a !important; }"
+        },
+        "stackoverflow.com": {
+            "css": "body { background-color: #1e1e1e !important; color: #e8e6e3 !important; }\n.s-topbar { background-color: #232629 !important; }\n.s-sidebarwidget { background-color: #2a2a2a !important; border-color: #3e4446 !important; }\n.question-summary { background-color: #2a2a2a !important; }\n.post-text { color: #e8e6e3 !important; }\npre { background-color: #1a1a1a !important; }\ncode { background-color: #2d2d2d !important; }\n.s-prose code { background-color: #2d2d2d !important; }\na { color: #6eb4ff !important; }"
+        },
+        "reddit.com": {
+            "css": "body { background-color: #1a1a1b !important; color: #d7dadc !important; }\n.ListingLayout-backgroundContainer { background-color: #030303 !important; }\n.Post { background-color: #1a1a1b !important; }\n.Comment { background-color: #1a1a1b !important; }\n._1poyrkZ7g36PawDueRza-J { background-color: #1a1a1b !important; }\na { color: #6eb4ff !important; }"
+        },
+        "twitter.com": {
+            "css": "body { background-color: #000 !important; color: #e7e9ea !important; }\n[data-testid=\"primaryColumn\"] { background-color: #000 !important; }\narticle { background-color: #000 !important; border-color: #2f3336 !important; }\na { color: #1d9bf0 !important; }"
+        },
+        "medium.com": {
+            "css": "body { background-color: #1e1e1e !important; color: #e8e6e3 !important; }\narticle { background-color: #1e1e1e !important; }\n.postArticle-content { color: #e8e6e3 !important; }\na { color: #6eb4ff !important; }\ncode { background-color: #2a2a2a !important; }\npre { background-color: #1a1a1a !important; }"
+        },
+        "dev.to": {
+            "css": "body { background-color: #0d1117 !important; color: #c9d1d9 !important; }\n.crayons-card { background-color: #161b22 !important; }\n.crayons-article__main { background-color: #0d1117 !important; }\na { color: #58a6ff !important; }\ncode { background-color: #161b22 !important; }"
+        }
+    }
+}
