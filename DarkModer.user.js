@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Dark Reader Userscript (Full)
-// @namespace    https://github.com/darkreader
-// @version      2.0.0
-// @description  Complete Dark Reader recreation as userscript. Supports self-hosted config files.
+// @name         DarkModer
+// @namespace    https://github.com/SysAdminDoc/DarkModer
+// @version      2.0.1
+// @description  Complete Dark Reader recreation as userscript. Dark mode for every website.
 // @author       Based on Dark Reader by Alexander Shutau
 // @license      MIT
 // @match        *://*/*
@@ -11,9 +11,14 @@
 // @grant        GM_xmlhttpRequest
 // @grant        GM_registerMenuCommand
 // @grant        GM_addStyle
+// @connect      raw.githubusercontent.com
 // @connect      *
 // @run-at       document-start
 // @noframes
+// @updateURL    https://github.com/SysAdminDoc/DarkModer/raw/refs/heads/main/DarkReader-Full.user.js
+// @downloadURL  https://github.com/SysAdminDoc/DarkModer/raw/refs/heads/main/DarkReader-Full.user.js
+// @homepageURL  https://github.com/SysAdminDoc/DarkModer
+// @supportURL   https://github.com/SysAdminDoc/DarkModer/issues
 // ==/UserScript==
 
 (function() {
@@ -24,11 +29,10 @@
     // ============================================================================
 
     const CONFIG = {
-        version: '2.0.0',
-        storageKey: 'darkReaderFull',
-        // Set your self-hosted config URL here (or leave empty to use built-in)
-        // Example: 'https://yourdomain.com/darkreader-configs/'
-        configBaseURL: '',
+        version: '2.0.1',
+        storageKey: 'darkModer',
+        // GitHub-hosted config files
+        configBaseURL: 'https://raw.githubusercontent.com/SysAdminDoc/DarkModer/refs/heads/main/',
         configFiles: {
             darkSites: 'dark-sites.json',
             dynamicFixes: 'dynamic-theme-fixes.json',
@@ -1418,7 +1422,7 @@
                             <svg class="dr-logo" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M12 11.807C10.7418 10.5483 9.88488 8.94484 9.53762 7.19776C9.19037 5.45068 9.36832 3.64072 10.049 2C7.4618 2.9426 5.27881 4.72746 3.83986 7.07381C2.40091 9.42016 1.78932 12.1895 2.09862 14.929C2.40792 17.6685 3.62052 20.2186 5.55337 22.1659C7.48622 24.1132 10.0292 25.3462 12.7661 25.6809C14.124 25.8558 15.5008 25.7726 16.8311 25.435C18.1614 25.0975 19.4206 24.5121 20.5429 23.7085C21.6652 22.9049 22.6303 21.898 23.3898 20.7413C24.1494 19.5847 24.6891 18.2998 24.9809 16.9546C25.2727 15.6094 25.3112 14.2286 25.0946 12.869C24.8779 11.5094 24.4101 10.1964 23.7158 9.00014C23.0215 7.80386 22.1132 6.74728 21.039 5.88014C19.9648 5.013 18.7454 4.35222 17.439 3.93014C17.1252 5.31647 17.1441 6.75877 17.4939 8.13662C17.8437 9.51448 18.5139 10.7893 19.449 11.857L12 11.807Z"/>
                             </svg>
-                            Dark Reader
+                            DarkModer
                         </div>
                         <button class="dr-close" id="dr-close">&times;</button>
                     </div>
@@ -1515,10 +1519,10 @@
                             </div>
 
                             <div class="dr-section">
-                                <div class="dr-label">Config URL (self-hosted)</div>
+                                <div class="dr-label">Config URL (leave blank for default)</div>
                                 <input type="text" class="dr-color-text" id="dr-config-url" 
                                        value="${CONFIG.configBaseURL}" 
-                                       placeholder="https://yourdomain.com/configs/">
+                                       placeholder="https://raw.githubusercontent.com/...">
                             </div>
 
                             <div class="dr-btn-row">
@@ -1530,7 +1534,7 @@
                     </div>
                     <div class="dr-footer">
                         <span>v${CONFIG.version} | Alt+Shift+D</span>
-                        <a href="https://darkreader.org" target="_blank">darkreader.org</a>
+                        <a href="https://github.com/SysAdminDoc/DarkModer" target="_blank">GitHub</a>
                     </div>
                 </div>
             `;
@@ -1766,7 +1770,7 @@
                 }
             });
 
-            console.log(`Dark Reader Userscript v${CONFIG.version} initialized`);
+            console.log(`DarkModer v${CONFIG.version} initialized`);
         },
 
         shouldApply() {
