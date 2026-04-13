@@ -1,5 +1,7 @@
 # DarkModer
 
+![Version](https://img.shields.io/badge/version-v3.0.0-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Platform](https://img.shields.io/badge/platform-JavaScript-lightgrey)
+
 A complete recreation of the [Dark Reader](https://darkreader.org) browser extension as a userscript.
 
 ## Features
